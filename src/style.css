@@ -3,14 +3,14 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f3f4f6; /* Light gray background */
+    background-color: whitesmoke; /* Light gray background */
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  /* Login Container */
-  .login-container {
+}
+
+/* Login Container */
+.login-container {
     width: 100%;
     max-width: 400px;
     background: white;
@@ -18,32 +18,32 @@ body, html {
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-  }
-  
-  /* Headings */
-  .login-container h2 {
+}
+
+/* Headings */
+.login-container h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
-  }
-  
-  .login-container p {
+}
+
+.login-container p {
     color: #6b7280;
     margin-bottom: 20px;
-  }
-  
-  /* Input Fields */
-  .input-field {
+}
+
+/* Input Fields */
+.input-field {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-  }
-  
-  /* Buttons */
-  .login-btn {
+}
+
+/* Buttons */
+.login-btn {
     width: 100%;
     background-color: #22c55e;
     color: white;
@@ -52,30 +52,31 @@ body, html {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .login-btn:hover {
+}
+
+.login-btn:hover {
     background-color: #16a34a;
-  }
-  
-  /* Divider */
-  .divider {
+    transform: scale(1.02);
+}
+
+/* Divider */
+.divider {
     display: flex;
     align-items: center;
     margin: 15px 0;
     color: #6b7280;
-  }
-  
-  .divider::before, .divider::after {
+}
+
+.divider::before, .divider::after {
     content: '';
     flex-grow: 1;
     height: 1px;
     background-color: #ccc;
     margin: 0 10px;
-  }
-  
-  /* Social Login Buttons */
-  .social-btn {
+}
+
+/* Social Login Buttons */
+.social-btn {
     width: 100%;
     padding: 12px;
     font-size: 16px;
@@ -86,25 +87,47 @@ body, html {
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
-  }
-  
-  .facebook-btn {
-    background-color: #1877f2;
+}
+
+.facebook-btn {
+    background-color:white;
     color: white;
-  }
-  
-  .google-btn {
-    background-color: #4285F4;
+}
+
+.google-btn {
+    background-color: #ffffff;
     color: white;
-  }
-  
-  /* Links */
-  .login-container a {
+}
+
+/* Links */
+.login-container a {
     color: #22c55e;
     text-decoration: none;
-  }
-  
-  .login-container a:hover {
+}
+
+.login-container a:hover {
     text-decoration: underline;
-  }
-  
+}
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Add space between buttons */
+    margin-top: 10px;
+}
+
+button {
+    border: none;
+    background: white;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.2s;
+}
+
+button img {
+    width: 40px;
+    height: 40px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
