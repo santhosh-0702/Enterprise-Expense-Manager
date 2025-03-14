@@ -131,3 +131,11 @@ button img {
 button:hover {
     transform: scale(1.1);
 }
+.skip{
+    position: relative;
+    top: -20px;
+    left: 180px;
+    color: green;
+    size: 10px;
+    transform: 1.2;
+}

@@ -13,6 +13,7 @@ console.log("Email:", email, "Password:", password);
 return (
 //login container
 <div className="login-container">
+<button className="skip">Skip</button>
     <h2>Welcome!</h2>
     <p>Log in with your email and password</p>
     <form onSubmit={handleSubmit}>
